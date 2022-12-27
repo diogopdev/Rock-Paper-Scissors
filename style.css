@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: white;
+}
+
+#container {
+	margin: 5% 10%;
+}
+
+#header {
+	text-align: center;
+	font-size: 2.3em;
+}
+
+#game {
+	display: flex;
+	/* flex-wrap: wrap; */
+	align-items: center;
+	justify-content: space-around;
+	margin: 5% auto;
+}
+
+.play-options {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.img-plays {
+	width: 220px;
+	height: 200px;
+	margin: 5px;
+}
+
+#speaker{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+#score-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 1.5em;
+}
+
+#score-container span {
+	text-align: center;
+}
+
+#span-player{
+	text-align: end !important;
+	width: 100px;
+}
+
+#span-computer{
+	text-align: start !important; 
+	width: 100px;
+}
+
+#score {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+}
+
+.score {
+	margin: 20px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 547.98px) { 
+	#header {
+		font-size: 1.4em;
+	}
+
+	.img-plays {
+		width: 120px;
+		height: 110px;
+	}
+
+	#score-container {
+		font-size: 1em;
+	}
+	
+ }
+
+/* Small devices (landscape phones, less than 768px) */
+@media screen and (min-width: 523.98px) and (max-width: 699.98px) { 
+	#header {
+		font-size: 2em;
+	}
+
+	.img-plays {
+		width: 170px;
+		height: 150px;
+	}
+
+	#score-container {
+		font-size: 1.5em;
+	}
+ }
